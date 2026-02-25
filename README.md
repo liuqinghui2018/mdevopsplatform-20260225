@@ -2,6 +2,16 @@
 
 A comprehensive DevOps platform built with **Python FastAPI** (backend) and **React + TypeScript** (frontend), providing CI/CD pipeline management, build tracking, deployment management, service registry, and environment management.
 
+## Screenshots
+
+| Login | Dashboard |
+|-------|-----------|
+| ![Login](https://github.com/user-attachments/assets/d5429647-8f90-4af6-86ac-4c77b8b64c58) | ![Dashboard](https://github.com/user-attachments/assets/252a9ff7-16e2-41c9-a360-e1f63718d529) |
+
+| Pipelines | Build History |
+|-----------|---------------|
+| ![Pipelines](https://github.com/user-attachments/assets/c60b90c9-4a82-4c00-ac14-e2b335af7cd0) | ![Builds](https://github.com/user-attachments/assets/948c5dff-0286-4521-920f-11052baabe05) |
+
 ## Features
 
 - 🔐 **JWT Authentication** — Secure login with role-based access (admin, developer, viewer)
@@ -107,7 +117,7 @@ Full interactive API docs available at http://localhost:8000/docs
 | Backend | Python 3.11, FastAPI, SQLAlchemy, SQLite |
 | Auth | JWT (python-jose), bcrypt (passlib) |
 | Frontend | React 18, TypeScript, Vite |
-| Styling | Tailwind CSS (CDN) |
+| Styling | Tailwind CSS v3 (npm) |
 | HTTP Client | Axios |
 | Routing | React Router v6 |
 | Containerization | Docker, Docker Compose, Nginx |
